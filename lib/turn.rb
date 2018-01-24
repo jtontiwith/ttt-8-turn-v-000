@@ -30,7 +30,6 @@ end
 
 def input_to_index(p_input)
   index_input = p_input.to_i - 1
-  puts "ya it's working #{index_input}"
 end
 
 def move(b_array, pmove, p_char = "X")
