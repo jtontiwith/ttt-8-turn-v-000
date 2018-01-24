@@ -39,4 +39,3 @@ end
 def turn
   
 end
-
