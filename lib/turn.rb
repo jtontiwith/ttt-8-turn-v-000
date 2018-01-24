@@ -22,7 +22,6 @@ end
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
-    puts "blahhhh"
     false
   else
     true
@@ -31,7 +30,7 @@ end
 
 def input_to_index(p_input)
   index_input = p_input.to_i - 1
-  puts index_input
+  valid_move?(board, index_input)
 end
 
 def move(b_array, pmove, p_char = "X")
