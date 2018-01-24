@@ -14,4 +14,3 @@ input = gets.strip
 input_to_index(input)
 
 puts input
-
