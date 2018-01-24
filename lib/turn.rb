@@ -34,4 +34,4 @@ end
 
 def move(b_array, pmove, p_char = "X")
   b_array[pmove] = p_char
-end  
+end
