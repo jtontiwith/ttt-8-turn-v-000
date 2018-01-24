@@ -29,7 +29,8 @@ def position_taken?(board, index)
 end
 
 def input_to_index(p_input)
-  p_input.to_i - 1
+  p_input = p_input.to_i - 1
+  puts p_input
 end
 
 def move(b_array, pmove, p_char = "X")
