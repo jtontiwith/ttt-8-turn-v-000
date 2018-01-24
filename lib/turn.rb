@@ -37,5 +37,5 @@ def move(b_array, pmove, p_char = "X")
 end
 
 def turn
-  
+
 end
