@@ -33,5 +33,5 @@ def input_to_index(p_input)
 end
 
 def move(b_array, pmove, p_char = "X")
-  b_array[pmove] = p_char 
+  b_array[pmove] = p_char
 end  
