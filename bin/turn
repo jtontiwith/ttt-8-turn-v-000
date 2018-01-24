@@ -11,3 +11,6 @@ turn(board)
 
 input = gets.strip
 input_to_index(input)
+
+position_taken?(board, index_input)
+
