@@ -29,7 +29,8 @@ def position_taken?(board, index)
 end
 
 def input_to_index(p_input)
-  p_input.to_i - 1
+  index_input = p_input.to_i - 1
+  puts "ya #{index_input} is working"
 end
 
 def move(b_array, pmove, p_char = "X")
@@ -38,6 +39,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input = gets.strip 
-  puts "input #{input} is working"
+  input = gets.strip
+  input_to_index(input)
 end
