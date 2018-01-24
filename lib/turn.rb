@@ -36,6 +36,6 @@ def move(b_array, pmove, p_char = "X")
   b_array[pmove] = p_char
 end
 
-def turn
-
+def turn(board)
+  puts "Please enter 1-9:"
 end
