@@ -29,8 +29,7 @@ def position_taken?(board, index)
 end
 
 def input_to_index(p_input)
-  index_input = p_input.to_i - 1
-  valid_move?(board, index_input)
+  p_input.to_i - 1
 end
 
 def move(b_array, pmove, p_char = "X")
