@@ -7,7 +7,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-display_board([" "," "," "," "," "," "," "," "," "])
+#display_board([" "," "," "," "," "," "," "," "," "])
 
 def valid_move?(board, index)
   if index.between?(0,8) == true && position_taken?(board, index) == false
